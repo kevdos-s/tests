@@ -6,11 +6,11 @@
 /*   By: kevdos-s <kevdos-s@student.42lausanne.c    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/15 06:16:17 by kevdos-s          #+#    #+#             */
-/*   Updated: 2026/03/17 08:44:30 by kevdos-s         ###   ########.fr       */
+/*   Updated: 2026/03/20 06:59:27 by kevdos-s         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../../includes/printf.h"
+#include "../../ft_printf.h"
 #include "../../libft/libft.h"
 #include "../test_helper.h"
 
@@ -72,7 +72,7 @@ void test_xX()
 
 	first_result = ft_printf("%x", test);
 	ft_printf("\n");
-	second_result = printf("%x", test);
+	//second_result = printf("%x", test);
 
 	printf("\nmon printf = %d \nprinf normal = %d\n", first_result, second_result);
 }
@@ -81,4 +81,5 @@ int main(void)
 	test_p();
 	test_di();
 	test_xX();
+	ft_printf("ceci est un test %d", 42);
 }
