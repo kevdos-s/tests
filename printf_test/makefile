@@ -6,7 +6,7 @@
 #    By: kevdos-s <kevdos-s@student.42lausanne.c    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2025/09/30 20:43:35 by kevdos-s          #+#    #+#              #
-#    Updated: 2025/12/08 16:06:20 by kevdos-s         ###   ########.fr        #
+#    Updated: 2026/03/20 08:17:07 by kevdos-s         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -15,7 +15,7 @@ NAME = test_printf
 MAIN_FNC = printf_test.c
 TEST_FNC = ../test_helper.c
 
-PRINTF_PATH = ../../../ft_printf
+PRINTF_PATH = ../../
 PRINTF = ${PRINTF_PATH}/libftprintf.a
 
 OBJDIR = ./objs/
