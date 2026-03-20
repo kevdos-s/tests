@@ -6,7 +6,7 @@
 #    By: kevdos-s <kevdos-s@student.42lausanne.c    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2025/09/30 20:43:35 by kevdos-s          #+#    #+#              #
-#    Updated: 2026/03/20 08:17:07 by kevdos-s         ###   ########.fr        #
+#    Updated: 2026/03/20 10:42:24 by kevdos-s         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -23,7 +23,7 @@ SRCS = ${MAIN_FNC} ${TEST_FNC}
 OBJS = ${SRCS:.c=.o}
 CC = cc
 RM = rm -f
-CFLAGS = -Wall -Wextra -Werror -g
+CFLAGS = -Wall -Wextra -g
 INCLUDE = -I ${PRINTF_PATH}
 MAKE = make -C
 

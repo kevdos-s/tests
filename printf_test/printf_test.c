@@ -6,7 +6,7 @@
 /*   By: kevdos-s <kevdos-s@student.42lausanne.c    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/15 06:16:17 by kevdos-s          #+#    #+#             */
-/*   Updated: 2026/03/20 06:59:27 by kevdos-s         ###   ########.fr       */
+/*   Updated: 2026/03/20 10:56:00 by kevdos-s         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -78,8 +78,13 @@ void test_xX()
 }
 int main(void)
 {
-	test_p();
+	char *string;
+
+	string = NULL;
+	ft_printf(string);
+	//printf(string);
+/* 	test_p();
 	test_di();
 	test_xX();
-	ft_printf("ceci est un test %d", 42);
+	ft_printf("ceci est un test %d", 42); */
 }
