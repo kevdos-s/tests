@@ -28,4 +28,9 @@ int main()
 	printf("%s\n", test);
 	test = get_next_line(fd);
 	printf("%s\n", test);
+	test = get_next_line(fd);
+	printf("%s\n", test);
+
+	free(test);
+	close(fd);
 }
