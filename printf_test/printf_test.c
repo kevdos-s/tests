@@ -6,12 +6,11 @@
 /*   By: kevdos-s <kevdos-s@student.42lausanne.c    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/15 06:16:17 by kevdos-s          #+#    #+#             */
-/*   Updated: 2026/03/20 10:56:00 by kevdos-s         ###   ########.fr       */
+/*   Updated: 2026/03/26 02:26:37 by kevdos-s         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "../../ft_printf.h"
-#include "../../libft/libft.h"
 #include "../test_helper.h"
 
 void test_di()
